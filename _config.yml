@@ -1,25 +1,19 @@
 # Site configuration
-domain: "http://songroger.win"
+#domain: "http://songroger.win"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://songroger.github.io/" # the base hostname & protocol for your site
+url: "http://czre.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
 avatar: http://7xof48.com1.z0.glb.clouddn.com/avatar.jpg
 about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
 favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
 basecss: 
 # Theme specific configuration
-title: songroger
+title: czre
 description: >
-  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
-  I was born and raised in Hunan China. 
-  I'm really fond of beautiful design, drawing etc.
+  哈哈哈，折腾好久弄了这么一个博客，拖了很长时间才尝试使用Jekyll在GitPages上面搭建自己的博客～
+  模版使用的Songroger写的murmur，http://jekyllthemes.org/themes/murmur/
 
-# Contact and social media links
-twitter_username: songrogero
-github_username: songroger
-facebook_username: song.roger.1
-instagram_username: songroger198
-linkedin_username: songroger
+github_username: czre
 
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
 
@@ -29,10 +23,10 @@ kramdown:
 # If U enable the comment, edit disqus or duoshuo account
 # before deploy your webpage
 enable_comment: false
-# disqus_account: songroger
+# disqus_account: czre
 
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
 # Pagination
 paginate: 5
 paginate_path: /archive/page:num
-
+encoding: UTF-8

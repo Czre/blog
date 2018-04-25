@@ -3,16 +3,18 @@
 #baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://czre.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
-avatar: http://7xof48.com1.z0.glb.clouddn.com/avatar.jpg
-about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
-favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
+avatar: https://raw.githubusercontent.com/Czre/images/master/avatar/Golden%20hair%20%26Siberian%20Husky.jpg
+about: https://raw.githubusercontent.com/Czre/images/master/avatar/Golden%20hair%20%26Siberian%20Husky.jpg
+favicon: https://raw.githubusercontent.com/Czre/images/master/ico/book.png
 basecss: 
 # Theme specific configuration
 title: czre
 description: >
   哈哈哈，折腾好久弄了这么一个博客，拖了很长时间才尝试使用Jekyll在GitPages上面搭建自己的博客～
-  模版使用的Songroger写的murmur，http://jekyllthemes.org/themes/murmur/
-
+  模版使用的Songroger写的murmur，http://jekyllthemes.org/themes/murmur/ <br>
+  简单的说说说自己吧：<br>
+    来自湖北的男孩子～目前在深圳从事java后端方面的工作，感觉自己喜欢玩游戏的占比还是多一点～<br>
+    从事java也才不到1年左右的时间，对于这这个语言，也有很多不懂的地方，如果博客中有错误，请给我留言或评论。^_^
 github_username: czre
 
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
